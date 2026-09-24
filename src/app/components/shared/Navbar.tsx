@@ -1,4 +1,3 @@
-
 "use client";
 
 import Link from "next/link";
@@ -10,6 +9,7 @@ const Navbar = () => {
 
   const links = [
     { name: "Home", href: "/" },
+    { name: "Books", href: "/books" },
     { name: "Listed Books", href: "/listed-books" },
     { name: "Pages to Read", href: "/pages-to-read" },
   ];
@@ -30,15 +30,10 @@ const Navbar = () => {
   return (
     <div className="container mx-auto px-4">
       <div className="navbar min-h-20 bg-base-100">
-
         {/* Logo */}
         <div className="navbar-start">
           <div className="dropdown">
-            <div
-              tabIndex={0}
-              role="button"
-              className="btn btn-ghost lg:hidden"
-            >
+            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -62,10 +57,7 @@ const Navbar = () => {
             >
               {links.map((link) => (
                 <li key={link.href} className="mb-1">
-                  <Link
-                    href={link.href}
-                    className={navLinkClass(link.href)}
-                  >
+                  <Link href={link.href} className={navLinkClass(link.href)}>
                     {link.name}
                   </Link>
                 </li>
@@ -86,10 +78,7 @@ const Navbar = () => {
           <ul className="flex items-center gap-2">
             {links.map((link) => (
               <li key={link.href}>
-                <Link
-                  href={link.href}
-                  className={navLinkClass(link.href)}
-                >
+                <Link href={link.href} className={navLinkClass(link.href)}>
                   {link.name}
                 </Link>
               </li>

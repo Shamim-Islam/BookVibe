@@ -101,7 +101,7 @@
     "bookId": 8,
     "bookName": "The Alchemist",
     "author": "Paulo Coelho",
-    "image": "https://i.ibb.co.com/zS9jsdK/18144590.jpg",
+    "image": "https://covers.openlibrary.org/b/isbn/9780062315007-L.jpg",
     "review": "'The Great Gatsby' by F. Scott Fitzgerald is a timeless masterpiece that delves into the decadence and disillusionment of the Jazz Age.",
     "totalPages": 177,
     "rating": 4.6,
@@ -123,5 +123,44 @@
     "tags": ["Suspense", "Psychological"],
     "publisher": "Riverhead Books",
     "yearOfPublishing": 2015
+  },
+  {
+    "bookId": 10,
+    "bookName": "Atomic Habits",
+    "author": "James Clear",
+    "image": "https://covers.openlibrary.org/b/isbn/9780735211292-L.jpg",
+    "review": "Atomic Habits explains how small, consistent changes can build better habits and create meaningful improvements in everyday life.",
+    "totalPages": 320,
+    "rating": 4.8,
+    "category": "Self-Help",
+    "tags": ["Habits", "Productivity"],
+    "publisher": "Avery",
+    "yearOfPublishing": 2018
+  },
+  {
+    "bookId": 11,
+    "bookName": "The Kite Runner",
+    "author": "Khaled Hosseini",
+    "image": "https://covers.openlibrary.org/b/isbn/9781594631931-L.jpg",
+    "review": "The Kite Runner tells a moving story of friendship, family, betrayal, guilt, and redemption against the backdrop of Afghanistan's changing history.",
+    "totalPages": 371,
+    "rating": 4.7,
+    "category": "Historical Fiction",
+    "tags": ["Friendship", "Family"],
+    "publisher": "Riverhead Books",
+    "yearOfPublishing": 2003
+  },
+  {
+    "bookId": 12,
+    "bookName": "The Silent Patient",
+    "author": "Alex Michaelides",
+    "image": "https://covers.openlibrary.org/b/isbn/9781250301697-L.jpg",
+    "review": "The Silent Patient is a psychological thriller about a woman who stops speaking after a shocking crime and the therapist determined to uncover the truth behind her silence.",
+    "totalPages": 336,
+    "rating": 4.6,
+    "category": "Thriller",
+    "tags": ["Mystery", "Psychological"],
+    "publisher": "Celadon Books",
+    "yearOfPublishing": 2019
   }
 ]
